@@ -1,0 +1,58 @@
+export const EXPENSE_DATA = [
+  {
+    id: 1,
+    date: new Date(2021, 4, 2),
+    item: "Food",
+    price: "10",
+    LocationOfExpenditure: "DakBanglow Restaurant,Kolkata",
+  },
+  {
+    id: 2,
+    date: new Date(2021, 1, 29),
+    item: "Petrol",
+    price: "100",
+    LocationOfExpenditure: "Howrah Petrol Station,Kolkata",
+  },
+  {
+    id: 3,
+    date: new Date(2022, 6, 7),
+    item: "Movies",
+    price: "200",
+    LocationOfExpenditure: "CinePolis,Lake Mall,Kolkata",
+  },
+  {
+    id: 4,
+    date: new Date(2022, 6, 7),
+    item: "Cyclying",
+    price: "50",
+    LocationOfExpenditure: "Park Street, Kolkata",
+  },
+  {
+    id: 4,
+    date: new Date(2021, 4, 25),
+    item: "Mountain Climbing",
+    price: "100",
+    LocationOfExpenditure: "Ayodhya Hill,Purulia",
+  },
+  {
+    id: 5,
+    date: new Date(2020, 8, 16),
+    item: "Boat Riding",
+    price: "500",
+    LocationOfExpenditure: "Mukutmonipur,Bankura",
+  },
+  {
+    id: 6,
+    date: new Date(2023, 1, 10),
+    item: "Science Explore",
+    price: "300",
+    LocationOfExpenditure: "Science City,Saltlake,Kolkata",
+  },
+  {
+    id: 7,
+    date: new Date(2022, 12, 18),
+    item: "Musium Visit",
+    price: "500",
+    LocationOfExpenditure: "Kolkata",
+  },
+];

@@ -12,20 +12,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-h1,
-h2 {
-  text-align: center;
-}
-h1 {
-  color: red;
-}
-h2 {
-  color: blue;
-}
-.ExpenseList {
-  display: flex;
-  margin: auto;
-  justify-content: space-evenly;
-  max-width: 200px;
-  text-align: center;
-}
