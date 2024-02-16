@@ -1,0 +1,121 @@
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  margin: 1rem 2rem;
+  border-radius: 12px;
+  background-color: #4b4b4b;
+  transition: transform 0.4s ease-in-out;
+}
+.expense-item:hover {
+  transform: scale(1.02);
+  transition: transform 0.4s ease-in-out;
+}
+
+.expense-item__description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.expense-item h2 {
+  color: #3a3a3a;
+  font-size: 1rem;
+  flex: 1;
+  margin: 0 1rem;
+  color: white;
+}
+.input-title {
+  font: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.expense-item__price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #40005d;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+.input_expense-item__price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: #fdfdfd;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+.change_button {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #089419;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
+}
+.delete_button {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #ab1f00;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 0.8rem 0.5rem;
+}
+.input {
+  max-width: 75px;
+}
+
+@media (min-width: 580px) {
+  .expense-item__description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  .expense-item__description h2 {
+    font-size: 1.25rem;
+  }
+
+  .expense-item__price {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+  }
+  .Location {
+    align-items: center;
+    font-size: 1rem;
+    justify-content: center;
+  }
+}
+.expenses {
+  padding: 1rem;
+  background-color: rgb(39, 95, 112);
+  margin: 2rem auto;
+  width: 80vw;
+  /* max-width: 95%; */
+}
+@media (max-width: 579px) {
+  .expenses {
+    padding: 1rem;
+    background-color: rgb(39, 95, 112);
+    margin: 2rem auto;
+    max-width: 80%;
+  }
+}
